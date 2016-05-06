@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>happy weekend</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<meta name='apple-mobile-web-app-capable' content='yes' />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv='Content-Type' content='textml;charset=UTF-8' />
+  <style type="text/css">
+    .bg{
+       background:url(./imgs/7.jpg);
+       background-size: cover;
+    }
+    .text {
+      color : white;
+      font-size: 26px; 
+    }
+    .black-text {
+      color : black;
+      text-align: center;
+    }
+    @keyframes fade-in {  
+        0% {opacity: 0;}/*初始状态 透明度为0*/  
+        40% {opacity: 0;}/*过渡状态 透明度为0*/  
+        100% {opacity: 1;}/*结束状态 透明度为1*/  
+    }  
+    @-webkit-keyframes fade-in {/*针对webkit内核*/  
+        0% {opacity: 0;}  
+        40% {opacity: 0;}  
+        100% {opacity: 1;}  
+    }  
+    #robert {    
+        animation: fade-in;/*动画名称*/  
+        animation-duration: 2s;/*动画持续时间*/  
+        -webkit-animation:fade-in 2s;/*针对webkit内核*/  
+        margin-top: 250px;
+        margin-left: 200px;
+        margin-right: 10px;
+        text-align: right;
+    }
+    #next {    
+        animation: fade-in;/*动画名称*/  
+        animation-duration: 7s;/*动画持续时间*/  
+        -webkit-animation:fade-in 7s;/*针对webkit内核*/  
+        border-radius: 15px; /* 所有角都使用半径为5px的圆角，此属性为CSS3标准属性 */ 
+        -moz-border-radius: 15px; /* Mozilla浏览器的私有属性 */ 
+        -webkit-border-radius: 15px; /* Webkit浏览器的私有属性 */ 
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        margin: 10px auto;
+        display: block;
+    }
+    #say {    
+        animation: fade-in;/*动画名称*/  
+        animation-duration: 5.5s;/*动画持续时间*/  
+        -webkit-animation:fade-in 5.5s;/*针对webkit内核*/ 
+        margin-top: 20px;
+        margin-left: 150px;
+        margin-right: 10px;
+        text-align: right;
+    }
+  </style>
+</head>
+<body class="bg">
+<div class="text" id="robert">I heard someone hurt you, bad guy! And he told me he feels guilty.</div>
+<div class="text" id="say">
+But you should enjoy your weekend, forget bad things.
+</div>
+<a class="black-text" id="next" href="3.html">^</a>
+</body>
+</html>
